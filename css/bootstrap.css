@@ -1097,12 +1097,12 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #232323;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
+  color: white;
   text-decoration: underline;
 }
 a:focus {
@@ -3189,26 +3189,26 @@ fieldset[disabled] .btn-primary.active {
 }
 .btn-success {
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
+  background-color: #d9581e;
+  border-color: #d9581e;
 }
 .btn-success:focus,
 .btn-success.focus {
   color: #fff;
-  background-color: #449d44;
-  border-color: #255625;
+  background-color: #d9581e;
+  border-color: #d9581e;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: #f37138;
+  border-color: #f37138;
 }
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #fff;
-  background-color: #449d44;
-  border-color: #398439;
+  background-color: #d9581e;
+  border-color: #d9581e;
 }
 .btn-success:active:hover,
 .btn-success.active:hover,
@@ -3220,8 +3220,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
   color: #fff;
-  background-color: #398439;
-  border-color: #255625;
+  background-color: #d9581e;
+  border-color: #d9581e;
 }
 .btn-success:active,
 .btn-success.active,
@@ -4036,7 +4036,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eee;
+  background-color: #232323;
 }
 .nav > li.disabled > a {
   color: #777;
@@ -4213,7 +4213,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar {
   position: relative;
-  min-height: 50px;
+  min-height: 100px;
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -4260,6 +4260,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-fixed-bottom .navbar-collapse {
     padding-right: 0;
     padding-left: 0;
+    padding-top: 50px;
   }
 }
 .navbar-fixed-top .navbar-collapse,
@@ -4337,6 +4338,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar > .container .navbar-brand,
   .navbar > .container-fluid .navbar-brand {
     margin-left: -15px;
+    margin-top: 20px;
   }
 }
 .navbar-toggle {

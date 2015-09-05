@@ -1,0 +1,81 @@
+body{
+	position: relative;
+}
+
+.navbar{
+	background-color: #F26222;
+}
+.p_justificado{
+	text-align: justify;
+}
+
+nav div a{
+	font-weight: bold;
+}
+
+div ul li a{
+	font-weight: bold;
+}
+
+header{
+	background: #232323;
+	color: #fff;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 50px;
+	min-height: 500px;
+}
+
+header div{
+	margin-top: 70px;
+}
+
+.services{
+	text-align: center;
+}
+
+section{
+	padding: 150px 0;
+	min-height: 500px;
+}
+
+.title{
+	font-size: 34px;
+	font-weight: 500;
+}
+
+.service-icon{
+	display: block;
+	font-size: 150px;
+}
+
+.series, .team{
+	background: #BFB8AF;
+}
+
+section.team div > img{
+	width: 150px;
+	height: 150px;
+	background-color: #232323;
+}
+
+.centered{
+	text-align: center;
+}
+
+.rows{
+	margin-right: 0;
+	margin-left: -15px;
+}
+
+footer{
+	background-color: #232323;
+	height: 200px;
+	position: relative;
+}
+
+span{
+	padding-top: 150px;
+	color: white;
+	font-weight: bold;	
+}
