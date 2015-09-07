@@ -1,5 +1,6 @@
 body{
 	position: relative;
+
 }
 
 .navbar{
@@ -18,10 +19,19 @@ div ul li a{
 }
 
 header{
+
 	text-align: center;
 	font-size: 50px;
 	padding-top: 50px;
 	height: 500px;
+}
+
+.principal{
+	width: 80%;
+	height: 100%;
+	border: 2px solid black;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -80,10 +90,6 @@ span{
 
 .shadow{
 	box-shadow: 0px 2px 10px #FF4D00
-
-}
-
-.bg-luffy{
 
 }
 
