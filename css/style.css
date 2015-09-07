@@ -25,10 +25,10 @@ header{
 	padding-top: 50px;
 	min-height: 500px;
 }
-
+/*
 header div{
 	margin-top: 70px;
-}
+}*/
 
 .services{
 	text-align: center;
@@ -50,7 +50,7 @@ section{
 }
 
 .series, .team{
-	background: #BFB8AF;
+	background: #f37138;
 }
 
 section.team div > img{
