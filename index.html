@@ -5,10 +5,10 @@
 	<meta charset ="UTF-8">
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/carousel-slider.css">
+	<!-- CSS NIVO-SLIDER
 	<link rel="stylesheet" type="text/css" href="css/nivo-slider/default/default.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/nivo-slider/light/light.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/nivo-slider/dark/dark.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/nivo-slider/bar/bar.css" media="screen" />
+	-->
     <link rel="stylesheet" type="text/css" href="css/nivo-slider.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/style-nivo.css">
@@ -42,10 +42,61 @@
 	</div>
 </nav>
 
-<div class="principal">
+<!--<div class="principal">-->
 
 <header>
 	<div class="container">
+ 
+    <div id="slider1_container">
+
+        <!-- Loading Screen -->
+        <div u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div id="estilo-div-3">
+            </div>
+            <div id="estilo-div-4">
+            </div>
+        </div>
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 809px; height: 150px; overflow: hidden;">
+            <div><img u="image" src="img/005.jpg" /></div>
+            <div><img u="image" src="img/006.jpg" /></div>
+            <div><img u="image" src="img/011.jpg" /></div>
+            <div><img u="image" src="img/013.jpg" /></div>
+            <div><img u="image" src="img/014.jpg" /></div>
+            <div><img u="image" src="img/019.jpg" /></div>
+            <div><img u="image" src="img/020.jpg" /></div>
+            <div><img u="image" src="img/021.jpg" /></div>
+            <div><img u="image" src="img/022.jpg" /></div>
+            <div><img u="image" src="img/024.jpg" /></div>
+            <div><img u="image" src="img/025.jpg" /></div>
+            <div><img u="image" src="img/027.jpg" /></div>
+            <div><img u="image" src="img/029.jpg" /></div>
+            <div><img u="image" src="img/030.jpg" /></div>
+            <div><img u="image" src="img/031.jpg" /></div>
+            <div><img u="image" src="img/032.jpg" /></div>
+            <div><img u="image" src="img/034.jpg" /></div>
+            <div><img u="image" src="img/038.jpg" /></div>
+            <div><img u="image" src="img/039.jpg" /></div>
+            <div><img u="image" src="img/043.jpg" /></div>
+           
+        </div>
+	        
+        <style>
+        	.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av 
+			{
+				background: url(img/b03.png) no-repeat;
+			}
+        </style>
+	        <!-- bullet navigator container -->
+	        <div u="navigator" class="jssorb03" style="bottom: 4px; right: 6px;">
+	            <!-- bullet navigator item prototype -->
+	            <div u="prototype"><div u="numbertemplate"></div></div>
+	        </div>
+        
+	</div>
+
+    <!-- HTML DO NIVO-SLIDER
 			<div id="wrapper">
 		        <div class="slider-wrapper theme-default">
 		            <div id="slider" class="nivoSlider">
@@ -59,10 +110,7 @@
 		            </div>
 		        </div>
 	    	</div>
-	    	<!--
-			<div>
-				<a href="#animes" class="btn btn-success page-scroll">Conte-me mais!</a>
-			</div>-->
+	-->
 	</div>
 
 </header>
@@ -144,12 +192,18 @@
 
 <!-- JS -->
 <script src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jssor.js"></script>
+<script type="text/javascript" src="js/jssor.slider.js"></script>
+<script type="text/javascript" src="js/carousel-slider.js"></script>
+
+
+<!-- JS DO NIVO-SLIDER
 <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
 <script type="text/javascript">
 $(window).load(function() {
     $('#slider').nivoSlider();
 });
-</script>
+</script>-->
 <script src="js/bootstrap.js"></script>
 <script src="js/easing.js"></script>
 <script src="js/default.js"></script>
